@@ -15,83 +15,89 @@ import react from "../images/react.png";
 
 function About() {
   return (
-    <div className="about" id="about">
+    <div className="about clearfix" id="about">
       <Title title="about me"></Title>
       <Title subtitle="skills"></Title>
-      <div className="container">
-        <img className="img" src={c} alt="c language"></img>
-        <div className="overlay">
-          <div className="content">Proficient</div>
+      <div className="skills clearfix">
+        <div className="container">
+          <img className="img" src={c} alt="c language"></img>
+          <div className="overlay">
+            <div className="content">Proficient</div>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <img className="img" src={java} alt="java"></img>
-        <div className="overlay">
-          <div className="content">Proficient</div>
+        <div className="container">
+          <img className="img" src={java} alt="java"></img>
+          <div className="overlay">
+            <div className="content">Proficient</div>
+          </div>
         </div>
-      </div>
 
-      <div className="container">
-        <img className="img" src={html} alt="html"></img>
-        <div className="overlay">
-          <div className="content">Proficient</div>
+        <div className="container">
+          <img className="img" src={html} alt="html"></img>
+          <div className="overlay">
+            <div className="content">Proficient</div>
+          </div>
         </div>
-      </div>
 
-      <div className="container">
-        <img className="img" src={css} alt="css"></img>
-        <div className="overlay">
-          <div className="content">Proficient</div>
+        <div className="container">
+          <img className="img" src={css} alt="css"></img>
+          <div className="overlay">
+            <div className="content">Proficient</div>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <img className="img" src={javascript} alt="javascript"></img>
-        <div className="overlay">
-          <div className="content">Intermediate</div>
+        <div className="container">
+          <img className="img" src={javascript} alt="javascript"></img>
+          <div className="overlay">
+            <div className="content">Intermediate</div>
+          </div>
         </div>
       </div>
       <Title subtitle="framwork and database"></Title>
-      <div className="container">
-        <img className="img" src={react} alt="react"></img>
-        <div className="overlay">
-          <div className="content">Intermediate</div>
+      <div className="skills clearfix">
+        <div className="container">
+          <img className="img" src={react} alt="react"></img>
+          <div className="overlay">
+            <div className="content">Intermediate</div>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <img className="img" src={sql} alt="sql"></img>
-        <div className="overlay">
-          <div className="content">Intermediate</div>
+        <div className="container">
+          <img className="img" src={sql} alt="sql"></img>
+          <div className="overlay">
+            <div className="content">Intermediate</div>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <img className="img" src={firebase} alt="firebase"></img>
-        <div className="overlay">
-          <div className="content">Intermediate</div>
+        <div className="container">
+          <img className="img" src={firebase} alt="firebase"></img>
+          <div className="overlay">
+            <div className="content">Intermediate</div>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <img className="img" src={github} alt="github"></img>
-        <div className="overlay">
-          <div className="content">Intermediate</div>
+        <div className="container">
+          <img className="img" src={github} alt="github"></img>
+          <div className="overlay">
+            <div className="content">Intermediate</div>
+          </div>
         </div>
       </div>
       <Title subtitle="operating systems"></Title>
-      <div className="container">
-        <img className="img" src={macos} alt="macos"></img>
-        <div className="overlay">
-          <div className="content">Proficient</div>
+      <div className="skills clearfix">
+        <div className="container">
+          <img className="img" src={macos} alt="macos"></img>
+          <div className="overlay">
+            <div className="content">Proficient</div>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <img className="img" src={windows} alt="windows"></img>
-        <div className="overlay">
-          <div className="content">Proficient</div>
+        <div className="container">
+          <img className="img" src={windows} alt="windows"></img>
+          <div className="overlay">
+            <div className="content">Proficient</div>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <img className="img" src={linux} alt="linux"></img>
-        <div className="overlay">
-          <div className="content">Intermediate</div>
+        <div className="container">
+          <img className="img" src={linux} alt="linux"></img>
+          <div className="overlay">
+            <div className="content">Intermediate</div>
+          </div>
         </div>
       </div>
     </div>

@@ -48,6 +48,13 @@
   }
 }
 
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .banner {
   font-size: 3rem;
   color: white;
@@ -142,8 +149,8 @@
 .container:hover .overlay {
   opacity: 1;
 }
-
 /* end of image */
+
 /* pages */
 .home {
   width: 100vw;
@@ -166,6 +173,25 @@
   justify-content: center;
   background: black;
 }
+
+@media screen and (max-width: 772px) {
+  .about {
+    width: auto;
+    height: 140vh;
+  }
+  .img {
+    margin-bottom: 1rem;
+  }
+  .overlay {
+    height: 85%;
+  }
+  /* .skills {
+    float: none;
+    width: auto;
+    height: auto;
+  } */
+}
+
 .project {
   width: 100vw;
   height: 100vh;
