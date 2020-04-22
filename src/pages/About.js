@@ -52,7 +52,7 @@ function About() {
           </div>
         </div>
       </div>
-      <Title subtitle="framwork and database"></Title>
+      <Title subtitle="framework and database"></Title>
       <div className="skills clearfix">
         <div className="container">
           <img className="img" src={react} alt="react"></img>
