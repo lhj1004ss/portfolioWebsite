@@ -67,6 +67,8 @@
 .banner-b {
   animation: slideFromLeft 5s ease-in-out;
 }
+
+/* navbar */
 .nav {
   position: fixed;
   height: 3.5rem;
@@ -80,11 +82,26 @@
   cursor: pointer;
   align-items: center;
 }
-
+.nav-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
 .nav-links {
+  height: 0;
+  overflow: hidden;
   display: inline-flex;
   margin-left: 50rem;
 }
+.show-nav {
+  height: 50px;
+}
+
 .nav-links li > .active {
   border-bottom: 3px solid white;
 }

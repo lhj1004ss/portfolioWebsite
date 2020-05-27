@@ -1,21 +1,40 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
+import { FaAlignRight } from "react-icons/fa";
 
 export default class Navbar extends Component {
-  state = {
-    isOpen: false,
-  };
-  handleToggle = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  };
+  // state = {
+  //   isOpen: false,
+  // };
+
+  // handleToggle = () => {
+  //   this.setState({ isOpen: !this.state.isOpen });
+  // };
+  // state = {
+  //   isOpen: false,
+  // };
+
+  // handleToggle = () => {
+  //   this.setState({ isOpen: !this.state.isOpen });
+  // };
+
   render() {
     return (
       <nav className="nav">
-        <Link className="logo" to="/">
+        <Link
+          className="logo"
+          to="home"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-300}
+          duration={500}
+        >
           Hyoje
         </Link>
+
         <div className="navbar">
-          <ul className="nav-links">
+          <ul className="nav-links show-nav">
             <li>
               <Link
                 to="home"
