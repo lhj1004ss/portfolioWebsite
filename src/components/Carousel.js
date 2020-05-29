@@ -37,7 +37,7 @@ export class Carousel extends Component {
           title: "Gadget Store",
           subTitle: "Creating gadget store using API and react",
           imgSrc: gadget,
-          link: "www.naver.com",
+          link: "https://react-project-gadgetstore-hyojelee.netlify.app/",
         },
         {
           id: 4,
