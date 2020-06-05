@@ -149,10 +149,10 @@
     opacity: 1;
     background: transparent;
   }
-  /* .nav-link:hover {
+  .nav-link:hover {
     padding: 0;
     background: transparent;
-  } */
+  }
 }
 
 /* Title */
