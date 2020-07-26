@@ -154,7 +154,9 @@
     background: transparent;
   }
 }
-
+/* .nav-links li > .active {
+    border-bottom: 3px solid white;
+  } */
 /* Title */
 .section-title {
   text-align: center;

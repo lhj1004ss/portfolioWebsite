@@ -42,7 +42,7 @@ export class Carousel extends Component {
         {
           id: 4,
           title: "Gihub Repository",
-          subTitle: "Creating gadget store using API and react",
+          subTitle: "Code Storage",
           imgSrc: github,
           link: "https://github.com/lhj1004ss/",
         },
